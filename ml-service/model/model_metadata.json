@@ -1,0 +1,75 @@
+{
+  "feature_order": [
+    "crop_type",
+    "state",
+    "season",
+    "soil_type",
+    "area_ha",
+    "rainfall_mm",
+    "temp_avg_c",
+    "humidity_pct",
+    "soil_ph",
+    "nitrogen_kg",
+    "phosphorus_kg",
+    "potassium_kg"
+  ],
+  "categorical_features": [
+    "crop_type",
+    "state",
+    "season",
+    "soil_type"
+  ],
+  "numeric_features": [
+    "area_ha",
+    "rainfall_mm",
+    "temp_avg_c",
+    "humidity_pct",
+    "soil_ph",
+    "nitrogen_kg",
+    "phosphorus_kg",
+    "potassium_kg"
+  ],
+  "model_type": "Random Forest",
+  "label_encoder_classes": {
+    "crop_type": [
+      "Cotton",
+      "Groundnut",
+      "Maize",
+      "Rice",
+      "Soybean",
+      "Sugarcane",
+      "Wheat"
+    ],
+    "state": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Uttar Pradesh",
+      "West Bengal"
+    ],
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "soil_type": [
+      "Alluvial",
+      "Black",
+      "Clay",
+      "Laterite",
+      "Red",
+      "Sandy"
+    ]
+  },
+  "metrics": {
+    "mae": 1.1908818707842188,
+    "rmse": 2.956470888597234,
+    "r2": 0.9865868648336888
+  },
+  "model_version": "v1.0"
+}
